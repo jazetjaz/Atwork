@@ -1,13 +1,11 @@
 import { StyleSheet } from 'react-native';
-
-
 import { Text, View } from '@/components/Themed';
 
-export default function TabOneScreen() {
+export default function NewPostScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Tab One Samedi five commit</Text>
-      
+      <Text style={styles.title}>New Post screen</Text>
+     
     </View>
   );
 }
@@ -22,5 +20,5 @@ const styles = StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
   },
-  
+ 
 });
